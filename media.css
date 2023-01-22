@@ -1,0 +1,51 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: auto 0;
+    outline: 5px solid black;
+    display: block;
+    position: relative;
+}
+.nav{
+    width: 10rem;
+    background-color: yellow;
+    height: 100vh;
+    border-radius: 10px;
+    display: inline-block;
+}
+.header{
+    height: 4rem;
+    width: 20rem;
+    background-color: blue;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: calc((100% - 20rem)/2)
+}
+.footer{
+    height: 4rem;
+    width: calc(100vw - 10rem);
+    background-color: brown;
+    bottom: 10px;
+    left: 10rem;
+    border-radius: 10px; 
+    z-index: -1;
+    position: absolute;
+    display: inline-block; 
+}
+.flex{
+    display: flex;
+    justify-content:space-around; 
+    align-items: center;  
+}
+.aqua{
+    background-color: aqua;
+    width: 50rem;
+    height: 3rem;
+}
+.purple{
+    background-color: purple;
+    width: 15rem;
+    height: 3rem;   
+}

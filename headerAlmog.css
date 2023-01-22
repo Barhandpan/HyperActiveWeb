@@ -1,0 +1,44 @@
+*{
+    color: purple;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header-container{
+    display: flex;
+    width: 100vw;
+    height: 6rem;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+.links{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   padding: 8px;
+}
+#logo{
+    font-weight: 700;
+    font-size: 2rem;
+}
+#notification{
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+#circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.container-1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+

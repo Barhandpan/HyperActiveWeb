@@ -1,0 +1,37 @@
+.box{
+    padding: 5px;
+    
+}
+.grid-container{
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 4rem auto 4rem;
+    grid-template-areas: 
+    "Header Header"
+    "Nav Main"
+    "Footer Footer";
+}
+.Header{
+    background-color: aqua;
+    grid-area: Header;
+}
+.Nav{
+    background-color: blueviolet;
+    grid-area: Nav;
+}
+.Main{
+    background-color: brown;
+    grid-area: Main;
+
+}
+.Footer{
+    background-color: blue;
+    grid-area: Footer;
+    max-height: 4rem;
+
+}
+.body{
+    margin: 0;
+}

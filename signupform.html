@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./selector.css">
+</head>
+<body>
+    <form action="https://www.google.com">
+        <table>
+            <tr>
+               <td>
+                     <label for="name">Name</label>
+               </td> 
+                <td>
+                    <input class = "inline-block" type="text" name="name" id="name" placeholder="Place Your Name" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input class = "inline-block" type="number" name="age" id="age" placeholder="Place Your Age" >
+                </td>               
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input class = "inline-block" type="password" name="password" id="password" placeholder="Create Your Password">
+                </td>              
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input class="inline-block" type="email" name="email" id="email" placeholder="Write Your Email" required></td>
+            </tr>
+           <tr>
+            <td><label for="birthday">Birthday</label></td>
+            <td><input class="inline-block" type="date" name="birthday" id="birthday"></td>  
+           </tr>     
+        </table>
+        <label class = "inline-block" for="gender">Gender:</label>
+        <input class = "inline-block" type="radio" name="gender" id="radio-male" value="male">
+        <label class = "inline-block" for="radio-male">Male</label>     
+        <input class = "inline-block" type="radio" name="gender" id="radio-female" value="female"> 
+        <label class = "inline-block" for="radio-female">Female</label>
+        <p>
+            <label class = "inline-block" for="city">City:</label>
+            <select name="city" id="city">           
+                <option value="Tel-Aviv">Tel-Aviv</option>
+                <option value="Haifa">Haifa</option>
+                <option value="Eilat">Eilat</option>
+            </select>  
+        </p> 
+        <p>
+            <input class = "inline-block" type="checkbox" name="terms" id="terms" required>
+            <label class = "inline-block" for="terms">I read the terms</label><br>
+            <input class = "inline-block" type="submit" onclick="alert('Sign up completed')" value="Sign Up" id="submit">
+            <input class = "inline-block" type="reset" value="reset" id="reset">
+        </p>
+        
+        
+    </form>
+</body>
+</html>

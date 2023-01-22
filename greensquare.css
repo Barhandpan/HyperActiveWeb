@@ -1,0 +1,14 @@
+.greenSquare{
+   
+    background-color: green;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    outline: 5px solid black;
+    margin: 20px;
+
+}
+.yellow{
+    background-color: yellow;
+}

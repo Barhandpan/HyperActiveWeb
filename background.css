@@ -1,0 +1,17 @@
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.input-focus{
+    border: 4px solid blue;
+}
+.input-blur{
+    border: 4px solid black;
+
+}

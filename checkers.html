@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkers</title>
+    <link rel="stylesheet" href="./checkers.css">
+</head>
+<body>  
+    <div>
+        <h2 id="title">Checkers</h2>
+        <h4 id="turn-massage">White's Turn</h4>
+    </div>
+    <div class="grid-container">
+    </div>
+    <div id="button-container">
+        <button onclick="offerDraw()" id="draw-button">Draw</button>
+        <button onclick="resign()" id="resign-button">Resign</button>
+    </div> 
+    <div id="modal-container">
+        <div class="none" id="draw-box">
+            <h4 id="draw-massage">Would you like to draw?</h4>
+            <button id='button-accept-draw'>Yes</button>
+            <button id="button-close-draw-box">No</button>
+        </div>
+    </div>
+    <div class="none">
+        <button id="button-close-multipleEat-box">OK</button>
+    </div> 
+    <div class="none">
+        <img src="https://www.shutterstock.com/image-vector/golden-crown-gradient-mesh-vector-600w-599734505.jpg" alt="Crown">
+    </div>          
+    <script src="./checkersBoard.js"></script>
+</body>
+</html>

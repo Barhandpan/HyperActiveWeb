@@ -1,0 +1,19 @@
+.box {
+    width: 300px;
+    height: 300px;
+    outline: 2px solid darkblue;
+    padding: 10px;    
+    margin: 20px auto;
+  }
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.orange{
+    background-color: orange;
+}

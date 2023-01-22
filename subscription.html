@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <link rel="stylesheet" href="./subscription.css">
+</head>
+<body>
+    <div id="container">
+        <form action="">
+            <div>
+                <table>
+                    <tr>
+                       <td>
+                             <label for="name">Name</label>
+                       </td> 
+                        <td>
+                            <input type="text" id="name" placeholder="Place Your Name" required >
+                        </td>                      
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="none" id="checkName">The Name Moshe is not allowed</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="age">Age</label>
+                        </td>
+                        <td>
+                            <input type="number" id="age" placeholder="Place Your Age" required>
+                        </td>                          
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="none" id="checkAge">The age must be above 12 years old</div>            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input  type="password" id="password" placeholder="Create Your Password" required>
+                        </td>                         
+                    </tr> 
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="none" id="checkPassword">The password must contain at least 6 digit</div>            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password2">Password</label>
+                        </td>
+                        <td>
+                            <input  type="password" id="password2" placeholder="Type Your Password Again" required>
+                        </td>                                          
+                    </tr>  
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="none" id="checkPassword2">The password is not matched</div>     
+                        </td>  
+                    </tr>
+                </table>   
+                <p>
+                    <input  type="submit" value="Sign Up" id="submit">
+                    <input  type="reset" value="reset" id="reset">
+                </p>     
+            </div>
+        </form>
+        <div>
+            
+            <p id="nameDisplay"></p>
+            <p id="ageDisplay"></p>
+            <p id="passwordDisplay"></p>
+            <p id="password2Display"></p>
+        </div>
+    </div>
+    <script src="./subscription.js"></script>
+</body>
+</html>
