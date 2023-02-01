@@ -1,0 +1,15 @@
+@mixin flex-center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex-choice($justify-content:start , $align-items:start){
+    display: flex;
+    @if($justify-content != start){
+        justify-content: $justify-content;
+    }
+    @if($align-items != start){
+        align-items: $align-items;
+    }
+}
+

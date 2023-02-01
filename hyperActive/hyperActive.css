@@ -55,22 +55,22 @@ ul {
 
 #header {
   display: flex;
+  justify-content: space-between;
   width: 100vw;
   height: 53px;
   object-fit: cover;
   background-color: #fff;
-  justify-content: space-between;
   box-sizing: content-box;
   width: 100%;
 }
 
 #menu-button {
-  width: 40px;
-  height: 40px;
-  margin: 7px 0 auto 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 7px 0 auto 10px;
   transition: all 0.5s ease-in-out;
   position: relative;
 }
@@ -116,8 +116,12 @@ ul {
   transform: rotate(-45deg) translate(-18px, 18px);
 }
 
+#middle-header {
+  height: 100%;
+  width: 100%;
+}
+
 #logo {
-  margin-right: 10px;
   object-fit: cover;
   height: 100%;
   background-image: url("C:\\Users\\bar\\OneDrive\\Desktop\\HyperActive Web\\hyperactive_logo.ca677e3d.png");
@@ -126,6 +130,7 @@ ul {
   background-position: center;
   max-height: 53px;
   cursor: pointer;
+  margin-right: 10px;
 }
 
 #logo-sub {
@@ -189,6 +194,7 @@ ul {
 .drop-down-container {
   padding: 20px;
   list-style: none;
+  margin-right: 20px;
 }
 .drop-down-container a {
   color: #000;
@@ -233,10 +239,10 @@ ul {
 }
 #modal-container {
   display: flex;
-  position: fixed;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   top: 0px;
@@ -253,12 +259,12 @@ ul {
 }
 
 #modal {
-  width: 610px;
-  height: 610px;
-  z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 610px;
+  height: 610px;
+  z-index: 100;
   flex-direction: column;
   position: absolute;
 }
@@ -287,11 +293,11 @@ ul {
 }
 
 #form-container-modal {
-  direction: rtl;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  direction: rtl;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -355,9 +361,9 @@ ul {
 
 .agree-modal {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
+  flex-direction: row-reverse;
   color: #040ea3;
   margin-right: 2%;
   font-size: 13px;
@@ -410,10 +416,10 @@ ul {
 }
 
 .thanks-title-container {
-  height: 100px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100px;
 }
 
 .thanks-text {
@@ -434,29 +440,29 @@ ul {
 }
 
 #banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   min-height: 130px;
   max-height: 190px;
   background-color: #2565AE;
   color: #fff;
   direction: rtl;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   line-height: 55px;
 }
 
 #banner-text {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 #no-pay {
-  font-weight: 800;
   display: flex;
   justify-content: center;
+  font-weight: 800;
   font-size: 66px;
 }
 
@@ -490,22 +496,22 @@ ul {
 
 #courses-container {
   display: flex;
+  justify-content: center;
   flex-flow: row-reverse;
   margin: 0 auto 70px;
   flex-wrap: wrap;
   animation: show 0.8s;
-  justify-content: center;
 }
 
 .icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 153px;
   width: 128px;
   line-height: 0.9rem;
   margin-left: 20px;
   margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   direction: rtl;
   flex-flow: column;
   cursor: pointer;
@@ -574,8 +580,8 @@ ul {
 
 #why-us-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 10px 0;
   width: 100%;
@@ -658,13 +664,13 @@ ul {
 }
 
 .category-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
   margin: 10px 0;
   width: 100%;
-  display: flex;
-  align-items: center;
   direction: rtl;
-  justify-content: space-between;
   flex-direction: column;
 }
 
@@ -698,9 +704,9 @@ ul {
 }
 
 #questions-container {
-  background: #fff6df;
   display: flex;
   justify-content: center;
+  background: #fff6df;
 }
 
 #questions {
@@ -708,6 +714,9 @@ ul {
 }
 
 .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-weight: 600;
   font-size: 1.1rem;
   margin: 10px 0;
@@ -715,9 +724,6 @@ ul {
   width: 100%;
   color: #007cba;
   height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .question-answer-container {
@@ -828,9 +834,9 @@ ul {
 }
 
 #button-container {
-  width: 100%;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 #checkboxbutton {
@@ -846,8 +852,8 @@ ul {
 
 .agree {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
+  flex-direction: row-reverse;
 }
 
 .privacy {
@@ -873,17 +879,17 @@ ul {
 }
 
 #whatsapp {
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 #details {
-  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
   border-left: 2px solid #fff;
 }
 
@@ -954,14 +960,14 @@ ul {
 }
 @media (min-width: 925px) {
   #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 75px;
     max-height: 75px;
-    display: flex;
     flex-direction: row;
     position: fixed;
     z-index: 10;
-    justify-content: center;
-    align-items: center;
   }
   #home-container, #menu-button {
     display: none;
@@ -995,12 +1001,13 @@ ul {
     position: sticky;
     display: flex;
     flex-flow: row;
+    max-height: 75px;
   }
   .nav-link {
-    height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 25px;
     border-left: 1px solid #000;
     padding: 0px 5px 0px 5px;
     font-size: 1.3vw;
@@ -1012,6 +1019,7 @@ ul {
   }
   #middle-header {
     height: 100%;
+    width: auto;
   }
   .drop-down-container {
     display: flex;
@@ -1019,6 +1027,7 @@ ul {
     align-items: center;
     font-weight: 400;
     padding: 0;
+    margin-right: auto;
   }
   #arrow-careers {
     padding-right: 5px;
@@ -1042,14 +1051,12 @@ ul {
     width: 100%;
   }
   #inner-careers li {
-    width: 45%;
     display: flex;
     align-items: center;
-    font-size: 1rem;
+    width: 40%;
     border: none;
     padding: 0;
     cursor: pointer;
-    max-height: 20px;
     margin: 7px 15px;
   }
   #careers:hover #inner-careers-container {
@@ -1058,25 +1065,25 @@ ul {
   #inner-careers a {
     color: #fff;
     display: flex;
-    font-size: 1rem;
+    font-size: 0.95rem;
     opacity: 0.99;
     font-weight: 700;
     cursor: pointer;
-    max-height: 20px;
+    width: auto;
   }
   #desktop-main {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
+    flex-direction: row-reverse;
     max-width: 1400px;
     width: 80%;
     margin: 0 auto 70px;
   }
   #desktop-section {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: relative;
   }
   #sector-title {
@@ -1118,9 +1125,9 @@ ul {
   }
   #contact-line-desktop {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   #courses-container {
     min-width: 650px;
@@ -1160,17 +1167,15 @@ ul {
   }
   #different-colors {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
   }
   #black-text {
     width: 50%;
-    margin-top: 20px;
+    margin: 20px 20px 0px 10px;
     padding: 20px;
-    margin-left: 10px;
     transition: all 0.5s ease-in-out;
     max-width: 550px;
-    min-width: 400px;
   }
   #white-text {
     width: 50%;
@@ -1178,7 +1183,6 @@ ul {
     margin-right: 10px;
     transition: all 0.5s ease-in-out;
     max-width: 550px;
-    min-width: 400px;
   }
   #black-text:hover {
     transition: all 0.5s ease-in-out;
@@ -1203,11 +1207,11 @@ ul {
     box-shadow: -2px -2px 30px rgba(0, 0, 0, 0.5);
   }
   #about-us-container {
+    display: flex;
+    justify-content: center;
     padding: 50px 15px 60px 0;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAP1AQMAAAAEpdAkAAAABlBMVEXt8vXp8PMayv0PAAADk0lEQVR42u3UMQHAIAADsH77UICQyZoHlOEEKVjY2SMRkaxyecpllMssl7dcvnI55bLLxYMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oQQ960IMe9OA/FyeQ9QbLaxohAAAAAElFTkSuQmCC) no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
   }
   #about-us {
     display: flex;
@@ -1250,9 +1254,9 @@ ul {
   }
   #whatsapp-desktop {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
     direction: rtl;
     width: 255px;
     height: 35px;
@@ -1313,9 +1317,9 @@ ul {
 @media (min-width: 1205px) {
   .category-list {
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    justify-content: center;
   }
   .category-container {
     max-width: 550px;
